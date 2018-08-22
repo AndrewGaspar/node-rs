@@ -1,0 +1,8 @@
+[package]
+name = "node-rs"
+version = "0.1.0"
+authors = ["Andrew Gaspar <andrew.gaspar@outlook.com>"]
+
+[dependencies]
+stdweb = "0.4.8"
+stdweb-derive = "0.4.0"
