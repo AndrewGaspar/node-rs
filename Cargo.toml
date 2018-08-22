@@ -2,7 +2,8 @@
 name = "node-rs"
 version = "0.1.0"
 authors = ["Andrew Gaspar <andrew.gaspar@outlook.com>"]
-license="MIT"
+license = "MIT"
+description = "Rust bindings for node.js using stdweb"
 
 [dependencies]
 stdweb = "0.4.8"
