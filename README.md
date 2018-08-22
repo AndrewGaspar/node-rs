@@ -30,7 +30,7 @@ For example:
 ```rust
 use node_rs::cluster;
 
-if (let Some(_) = cluster::initialize()) {
+if let Some(_) = cluster::initialize() {
     // 'cluster' module is available
     cluster::fork();
 }
