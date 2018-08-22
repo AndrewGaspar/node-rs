@@ -1,10 +1,10 @@
 [package]
 name = "node-rs"
-version = "0.1.2"
+version = "0.1.3"
 authors = ["Andrew Gaspar <andrew.gaspar@outlook.com>"]
 repository = "https://github.com/AndrewGaspar/node-rs"
 homepage = "https://github.com/AndrewGaspar/node-rs"
-documentation = "https://docs.rs/node-rs/*/node-rs/"
+documentation = "https://docs.rs/node-rs/*/"
 license = "MIT"
 readme = "README.md"
 keywords = ["web", "nodejs", "wasm", "webasm", "javascript"]
