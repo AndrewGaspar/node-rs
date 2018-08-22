@@ -7,7 +7,7 @@ homepage = "https://github.com/AndrewGaspar/node-rs"
 documentation = "https://docs.rs/node-rs/*/node-rs/"
 license = "MIT"
 readme = "README.md"
-keywords = ["web", "nodejs", "wasm", "webasm", "javascript", "node"]
+keywords = ["web", "nodejs", "wasm", "webasm", "javascript"]
 categories = ["api-bindings", "web-programming"]
 description = "Rust bindings for node.js using stdweb"
 
