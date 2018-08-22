@@ -1,10 +1,19 @@
 [package]
 name = "node-rs"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["Andrew Gaspar <andrew.gaspar@outlook.com>"]
+documentation = "https://docs.rs/node-rs/*/node-rs/"
 license = "MIT"
 description = "Rust bindings for node.js using stdweb"
 
 [dependencies]
 stdweb = "0.4.8"
 stdweb-derive = "0.4.0"
+
+[features]
+"docs-rs" = ["stdweb/docs-rs"]
+
+[package.metadata.docs.rs]
+features = ["docs-rs"]
+all-features = false
+no-default-features = true
