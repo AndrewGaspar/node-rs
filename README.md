@@ -1,4 +1,6 @@
 # node-rs
+[![Documentation](https://docs.rs/node-rs/badge.svg)](https://docs.rs/node-rs/*/)
+
 This crate exposes a `stdweb`-friendly interface to the `node.js` API. This is
 very much a work-in-progress.
 

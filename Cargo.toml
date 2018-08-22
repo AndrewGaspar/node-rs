@@ -1,9 +1,14 @@
 [package]
 name = "node-rs"
-version = "0.1.1"
+version = "0.1.2"
 authors = ["Andrew Gaspar <andrew.gaspar@outlook.com>"]
+repository = "https://github.com/AndrewGaspar/node-rs"
+homepage = "https://github.com/AndrewGaspar/node-rs"
 documentation = "https://docs.rs/node-rs/*/node-rs/"
 license = "MIT"
+readme = "README.md"
+keywords = ["web", "node.js", "wasm", "webasm", "javascript", "node"]
+categories = ["api-bindings", "web-programming"]
 description = "Rust bindings for node.js using stdweb"
 
 [dependencies]
